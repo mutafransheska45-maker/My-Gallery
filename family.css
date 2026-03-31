@@ -16,7 +16,7 @@ body{
 
 }
 .navbar{
-    border: 2px solid red;
+    /* border: 2px solid red; */
       padding: 1.5%;
       background-color: rgb(57, 31, 104);
 
@@ -33,3 +33,4 @@ a{
     text-decoration: none;
     color:white;
 }
+
