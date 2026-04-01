@@ -1,0 +1,125 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+     font-family: "Raleway", sans-serif;
+      font-weight: 500;
+     font-size: x-large;
+}
+
+body{
+    background-image: url(images/Grunge\ Rarity.jpg);
+    background-repeat:repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    overflow-x: hidden;
+
+}
+
+.navbar{
+    /* border: 2px solid red; */
+      padding: 1.5%;
+      background-color: rgb(57, 31, 104);
+
+}
+
+ul{
+    display:flex;
+    justify-content: space-evenly;
+    text-align: center;
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+     color:white;
+}
+
+.outside{
+      color: white;
+    display: flex;
+    justify-content: center;
+    font-size: 180%;  
+    margin-top: 2.5%; 
+    animation-name: bounce;
+  animation-duration: 5s;
+     animation-timing-function: ease;
+  animation-iteration-count: infinite;
+  animation-direction: normal;
+  animation-fill-mode: both;
+}
+
+@keyframes bounce {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-30px); }
+}
+
+.first{
+      display: flex;
+    justify-content: center;
+    justify-content: space-around;
+}
+
+.title{
+    color: white;
+     display: flex;
+    justify-content: center;
+    font-size: 50px;
+    font-weight: 500; 
+    margin-top: 4%;
+    margin-bottom: 4%; 
+} 
+
+video{
+    width: 20%;
+    border-radius: 20px;
+}
+
+#two{
+  margin-top: 6%;
+}
+
+
+
+
+
+
+
+
+
+
+
+video{
+   filter: grayscale(100%) ;
+}
+
+video:hover{
+    filter:brightness(100%);
+   cursor: grab;
+   transform: scale(1.3)
+}
+
+@media screen and (max-width: 600px) {
+  a{
+    text-decoration: none;
+    color: white;
+    font-size:large;
+}
+
+ul{
+    display: grid;
+}
+
+ul:hover{
+    text-decoration: underline;
+}
+
+.slides{
+    height: 20vh;
+}
+.title{
+    font-size: large;
+}
+
+}
