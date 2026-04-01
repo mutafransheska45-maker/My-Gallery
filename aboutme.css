@@ -56,6 +56,10 @@ video{
     flex: 1;
 }
 
+.about{
+    text-transform: uppercase;
+}
+
 .intro h1, p{
     color: white;
     font-size: xx-large;
