@@ -34,6 +34,11 @@ a{
     color:white;
 }
 
+a:hover{
+    background-color: rgb(194, 16, 155);
+    border-radius: 6px;
+}
+
 img, video{
     width: 20%;
     height: 20%;
@@ -90,6 +95,11 @@ img:hover, video:hover{
     text-decoration: none;
     color: white;
     font-size:large;
+}
+
+a:hover{
+    background-color: rgb(194, 16, 155);
+    border-radius: 6px;
 }
 
 ul{

@@ -33,6 +33,11 @@ a{
     font-size: x-large;
 }
 
+a:hover{
+    background-color: rgb(194, 16, 155);
+    border-radius: 6px;
+}
+
 .glimpse{
     /* border: 2px solid red; */
     color:white;
@@ -149,6 +154,11 @@ animation: slider 15s linear infinite;
     text-decoration: none;
     color: white;
     font-size:large;
+}
+
+a:hover{
+    background-color: rgb(194, 16, 155);
+    border-radius: 6px;
 }
 
 ul{

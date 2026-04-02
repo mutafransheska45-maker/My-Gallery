@@ -36,6 +36,11 @@ a{
      color:white;
 }
 
+a:hover{
+    background-color: rgb(194, 16, 155);
+    border-radius: 6px;
+}
+
 .outside{
       color: white;
     display: flex;
@@ -80,16 +85,6 @@ video{
   margin-top: 6%;
 }
 
-
-
-
-
-
-
-
-
-
-
 video{
    filter: grayscale(100%) ;
 }
@@ -105,6 +100,11 @@ video:hover{
     text-decoration: none;
     color: white;
     font-size:large;
+}
+
+a:hover{
+    background-color: rgb(194, 16, 155);
+    border-radius: 6px;
 }
 
 ul{

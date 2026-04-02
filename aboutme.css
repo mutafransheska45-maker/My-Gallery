@@ -36,6 +36,11 @@ a{
      color:white;
 }
 
+a:hover{
+    background-color: rgb(194, 16, 155);
+    border-radius: 6px;
+}
+
 video{
     width: 80%;
     max-width: 400px;
@@ -72,21 +77,26 @@ video{
     color: rgb(194, 16, 155);
 }
 
-@media screen and (min-width: 370px){
-    body{
-    background-image: url(images/Grunge\ Rarity.jpg);
-    background-repeat:repeat;
-    background-size: cover;
-    height: 100vh;
-    width: 100vw;
-    overflow-x: hidden;
-}
-
-}
-
-@media screen and(max-width: 660px){
+@media screen and (max-width: 600px){
     ul{
-       display:grid;
-    }
-    
+    display:grid;
+}
+ul:hover{
+    text-decoration: underline;
+}
+
+   body{
+    background-repeat:repeat;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    font-size:large;
+}
+a:hover{
+    background-color: rgb(194, 16, 155);
+    border-radius: 6px;
+}
+
 }
