@@ -77,7 +77,7 @@ video{
     color: rgb(194, 16, 155);
 }
 
-@media screen and (max-width: 600px){
+@media screen and (max-width: 800px){
     ul{
     display:grid;
 }
